@@ -50,7 +50,6 @@ The Top 5 Action movies based on user IMDb ratings. The following code was used 
 top_action = merged.loc[(merged['genre'].str.contains('Action')) & (merged['total_votes']>300000)].sort_values('weighted_average_vote', ascending=False)
 top_action.head()  
 ```  
-Link of Results
 
 Using the following code I could find the top movies on Netflix for all genres
 ```  
