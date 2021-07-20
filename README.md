@@ -1,5 +1,5 @@
 
-# Netlifx Best Movies
+# Netflix Best Movies
 
 This project is to use EDA to find the best movies found on Netflix based on user IMDB ratings
 
