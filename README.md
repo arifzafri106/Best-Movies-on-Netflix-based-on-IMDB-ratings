@@ -57,7 +57,9 @@ Using the following code I could find the top movies on Netflix for all genres
 top_movies = merged.loc[merged['total_votes']>300000].sort_values('weighted_average_vote', ascending=False).head()
 top_movies  
 ```  
-Link of Results
+![My image](https://github.com/arifzafri106/Best-Movies-on-Netflix-based-on-IMDB-ratings/blob/main/image/topallgenre.PNG)
+![My image](https://github.com/arifzafri106/Best-Movies-on-Netflix-based-on-IMDB-ratings/blob/main/image/topmoviesgraph.png)  
+
 
 To find the release year of movies found on netflix the following code was used
 ```  
@@ -71,4 +73,5 @@ Based on that we can use relplot using seaborn to show the trend of the release 
 sns.relplot(x="release_year", y="No. of Movies", kind="line", data=year)
 ```  
 
-Link of Results
+![My image](https://github.com/arifzafri106/Best-Movies-on-Netflix-based-on-IMDB-ratings/blob/main/image/releaseyteargraph.png)  
+
