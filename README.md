@@ -40,6 +40,9 @@ merged.head()
 merged = merged.drop(['show_id', 'type', 'date_added', 'listed_in', 'imdb_title_id', 'year'],axis=1)
 merged
 ```
+Now we have the final dataframe
+(/image/dataframe.png)
+
 ## EDA  
 Now the datasets are merged, I can do EDA. The first was to find the top movies on Netflix based on the genre.  
 The Top 5 Action movies based on user IMDb ratings. The following code was used to find the top movies for genres such as Horror and Comedy
