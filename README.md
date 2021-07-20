@@ -41,7 +41,7 @@ merged = merged.drop(['show_id', 'type', 'date_added', 'listed_in', 'imdb_title_
 merged
 ```
 Now we have the final dataframe
-![](/image/dataframe.png)
+![My image](https://github.com/arifzafri106/Best-Movies-on-Netflix-based-on-IMDB-ratings/blob/main/image/dataframe.PNG)
 
 ## EDA  
 Now the datasets are merged, I can do EDA. The first was to find the top movies on Netflix based on the genre.  
